@@ -26,10 +26,7 @@ section#login {
   position: absolute;
   left: 50%;
   top: 50%;
-
-  transform: translate(-50%, -50%);
   overflow: hidden;
-
   background-color: aqua;
   width: 250px;
   height: 515px;
@@ -38,6 +35,7 @@ section#login {
 
   transition: width 0.3s, height 0.3s;
   transition-timing-function: ease;
+  transform: translate(-50%, -50%);
 }
 section#login > div#imagen  {
   background: #5f2c82 url(../imagens/pexels-matheus-souza-3693599.jpg) no-repeat;
@@ -81,11 +79,11 @@ div#campo > input {
   background-color: rgb(255, 255, 255);
   font-size: 1em;
   width: calc(100% - 44px);
-  transform: translatey(-6px);
   height: 100%;
   border: 0px;
   border-radius: 8px;
   padding: 4px;
+  transform: translatey(-6px);
 }
 
 form > input[type=submit] {
