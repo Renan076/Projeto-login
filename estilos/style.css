@@ -64,6 +64,7 @@ form > div#campo  {
   height: 40px;
   border-radius: 8px;
   margin: 5px 0px;
+  border: 2px solid #5f2c82;
 }
 div#campo label {
  display: none;
@@ -80,10 +81,11 @@ div#campo > input {
   background-color: rgb(255, 255, 255);
   font-size: 1em;
   width: calc(100% - 44px);
-  transform: translatey(-7px);
+  transform: translatey(-6px);
   height: 100%;
   border: 0px;
   border-radius: 8px;
+  padding: 4px;
 }
 
 form > input[type=submit] {
@@ -97,6 +99,13 @@ form > input[type=submit] {
   border-radius: 5px;
   cursor: pointer;
 }
+
+div#campo > input:focus-within {
+  background-color: antiquewhite;
+  border: none;
+}
+
+
 form > input[type=submit]:hover {
   background-color: #163f3e;
 }
@@ -110,7 +119,7 @@ form > a.botao {
   padding-top: 5px;
   background-color: aqua;
   color: #161616;
-  border: 1px solid #265c5b;
+  border: 1px solid #615959;
   border-radius: 7px;
   text-decoration: none;
 }
